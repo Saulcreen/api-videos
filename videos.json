@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "tmdbId": 429617,
+    "titulo": "Spider-Man: Lejos de casa",
+    "url": "https://www.youtube.com/watch?v=J4aOGV5hO6k",
+    "tipo": "trailer",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 2,
+    "tmdbId": 634649,
+    "titulo": "Spider-Man: Sin camino a casa",
+    "url": "https://www.youtube.com/watch?v=8nNa5A_MRBU",
+    "tipo": "trailer",
+    "idioma": "es-LA"
+  }
+]
