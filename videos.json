@@ -1,10 +1,12 @@
 [
   {
     "id": 1,
-    "tmdbId": 429617,
+    "tmdbId": 13916,
     "titulo": "Death Note - Episodio 1: Renacimiento",
-    "url": "https://drive.google.com/file/d/1kwRPO5Y9a9iTMNzBrPu80gouchYLxUqv/view?usp=sharing",
+    "url": "https://drive.google.com/file/d/1kwRPO5Y9a9iTMNzBrPu80gouchYLxUqv/preview",
     "tipo": "episodio",
+    "temporada": 1,
+    "episodio": 1,
     "idioma": "es-LA"
   }
 ]
