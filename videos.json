@@ -8,5 +8,15 @@
     "temporada": 1,
     "episodio": 1,
     "idioma": "es-LA"
+  },
+  {
+    "id": 2,
+    "tmdbId": 13916,
+    "titulo": "Death Note - Episodio 2: Confrontación",
+    "url": "https://cdn.savedly.net/z2xgxymb",
+    "tipo": "episodio",
+    "temporada": 1,
+    "episodio": 2,
+    "idioma": "es-LA"
   }
 ]
