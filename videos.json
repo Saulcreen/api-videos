@@ -28,5 +28,35 @@
     "temporada": 1,
     "episodio": 3,
     "idioma": "es-LA"
+    },
+  {
+    "id": 4,
+    "tmdbId": 13916,
+    "titulo": "Death Note - Episodio 4: Persecución",
+    "url": "https://cdn.savedly.net/ugtvupex",
+    "tipo": "episodio",
+    "temporada": 1,
+    "episodio": 4,
+    "idioma": "es-LA"
+    },
+  {
+    "id": 5,
+    "tmdbId": 13916,
+    "titulo": "Death Note - Episodio 5: Tácticas",
+    "url": "https://cdn.savedly.net/stccbefb",
+    "tipo": "episodio",
+    "temporada": 1,
+    "episodio": 5,
+    "idioma": "es-LA"
+    },
+  {
+    "id": 6,
+    "tmdbId": 13916,
+    "titulo": "Death Note - Episodio 6: Desvelando",
+    "url": "https://cdn.savedly.net/k8xe77sj",
+    "tipo": "episodio",
+    "temporada": 1,
+    "episodio": 6,
+    "idioma": "es-LA"
     }
 ]
