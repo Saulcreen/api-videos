@@ -18,5 +18,15 @@
     "temporada": 1,
     "episodio": 2,
     "idioma": "es-LA"
-  }
+  },
+  {
+    "id": 3,
+    "tmdbId": 13916,
+    "titulo": "Death Note - Episodio 3: El Trato",
+    "url": "https://cdn.savedly.net/evtxadae",
+    "tipo": "episodio",
+    "temporada": 1,
+    "episodio": 3,
+    "idioma": "es-LA"
+    }
 ]
