@@ -3,8 +3,14 @@
     "id": 1,
     "tmdbId": 969681,
     "titulo": "Spider-Man: Brand New Day",
-    "url": "https://savedly.net/embed/q3eb4zwr",
-    "fuente": "directo",
+    "url": [
+      "https://cdn.savedly.net/qnb9asar",
+      "https://cdn.savedly.net/6y92tfs2",
+      "https://cdn.savedly.net/z3r5awss",
+      "https://cdn.savedly.net/wysx94ad",
+      "https://cdn.savedly.net/bmjxmes5"
+    ],
+    "fuente": "directa",
     "tipo": "pelicula",
     "idioma": "es-LA"
   },
