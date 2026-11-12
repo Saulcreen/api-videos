@@ -1,10 +1,10 @@
-{
+[
+  {
     "id": 1,
     "tmdbId": 969681,
     "titulo": "Spider-Man: Brand New Day",
-    "url": "/api/stream/1",
-    "fuente": "telegram",
-    "messageId": 1,
+    "url": "https://savedly.net/f/q3eb4zwr",
+    "fuente": "directo",
     "tipo": "pelicula",
     "idioma": "es-LA"
   },
