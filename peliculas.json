@@ -2,7 +2,7 @@
     "id": 1,
     "tmdbId": 969681,
     "titulo": "Spider-Man: Brand New Day",
-    "url": "9277259530:AAHkGaDEVkc1eCNreBF_lBK5bdoc4QimT38",
+    "url": "/api/stream/1",
     "fuente": "telegram",
     "messageId": 1,
     "tipo": "pelicula",
