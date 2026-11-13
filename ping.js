@@ -86,6 +86,47 @@ function looksLikeVideo(h) {
   return false;
 }
 
+
+async function leerRango(url, a, b) {
+  const res = await fetch(url, { headers: { 'User-Agent': UA, 'Range': `bytes=${a}-${b}` }, redirect: 'follow', signal: AbortSignal.timeout(45000) });
+  if (res.status !== 206) throw new Error(`rango ${res.status}`);
+  return Buffer.from(await res.arrayBuffer());
+}
+
+// Recorre las cajas del mp4 con peticiones de 16 bytes (sin bajar el video) hasta encontrar "moov"
+// y lee la duracion (mvhd). faststart = el indice (moov) esta antes de los datos (mdat).
+async function leerMp4(url, size) {
+  let off = 0, vioMdat = false;
+  for (let n = 0; n < 12 && off + 8 <= size; n++) {
+    const h = await leerRango(url, off, off + 15);
+    let sz = h.readUInt32BE(0), hdr = 8;
+    const tipo = h.toString('latin1', 4, 8);
+    if (sz === 1 && h.length >= 16) { sz = Number(h.readBigUInt64BE(8)); hdr = 16; }
+    else if (sz === 0) sz = size - off;
+    if (sz < hdr) return null;
+    if (tipo === 'mdat') vioMdat = true;
+    if (tipo === 'moov') {
+      if (sz > 16 * 1048576) return { faststart: !vioMdat, duracion: null };
+      const m = await leerRango(url, off, off + sz - 1);
+      let p = hdr;
+      while (p + 8 <= m.length) {
+        const csz = m.readUInt32BE(p), ct = m.toString('latin1', p + 4, p + 8);
+        if (csz < 8) break;
+        if (ct === 'mvhd') {
+          const v = m[p + 8];
+          const ts = v === 1 ? m.readUInt32BE(p + 28) : m.readUInt32BE(p + 20);
+          const du = v === 1 ? Number(m.readBigUInt64BE(p + 32)) : m.readUInt32BE(p + 24);
+          return { faststart: !vioMdat, duracion: ts ? Math.round(du / ts * 1000) / 1000 : null };
+        }
+        p += csz;
+      }
+      return { faststart: !vioMdat, duracion: null };
+    }
+    off += sz;
+  }
+  return null;
+}
+
 async function checkOnce(item) {
   const r = { url: item.url, label: item.label, ok: false, avisos: [] };
   try {
@@ -106,6 +147,16 @@ async function checkOnce(item) {
     if (r.seekable && r.size && r.size > HEAD + TAIL) {          // calienta el final del archivo
       const b = await fetchRange(item.url, `bytes=-${TAIL}`, TAIL);
       if (b.res.status !== 206) r.avisos.push(`final respondio ${b.res.status}`);
+    }
+    if (r.size && DUR_PREV[item.url] > 0) r.duracion = DUR_PREV[item.url];
+    else if (r.size && r.seekable) {
+      try {
+        const info = await leerMp4(item.url, r.size);
+        if (info) {
+          if (info.duracion > 0) r.duracion = info.duracion;
+          if (info.faststart === false) r.avisos.push('indice (moov) al final: el arranque es mas lento; conviene remuxear con -movflags +faststart');
+        }
+      } catch (e) { /* si no es mp4 simplemente no hay duracion */ }
     }
     r.ok = true;
   } catch (err) {
@@ -129,11 +180,13 @@ function readPrevFallos() {
   } catch { return {}; }
 }
 
+let DUR_PREV = {};
 const mb = n => (n / 1048576).toFixed(0) + ' MB';
 
 async function runOnce() {
   const items = await collect();
   const prev = readPrevFallos();
+  try { DUR_PREV = JSON.parse(fs.readFileSync(path.join(__dirname, 'estado.json'), 'utf8')).duraciones || {}; } catch { DUR_PREV = {}; }
   console.log(`\n[${new Date().toISOString()}] Verificando ${items.length} URLs...`);
   const results = [];
   let next = 0;
@@ -152,9 +205,12 @@ async function runOnce() {
   const dudosas = failed.filter(f => f.fallos < CONFIRMAR);
   const avisos = results.filter(r => r.ok && r.avisos.length).map(r => ({ titulo: r.label, avisos: r.avisos }));
 
+  const duraciones = {};
+  for (const r of results) { const d = r.duracion || DUR_PREV[r.url]; if (d > 0) duraciones[r.url] = d; }
   // estado.json: compacto, solo cambia cuando cambia algo (la fecha es por dia) -> pocos commits. Lo lee GipaPlay.
   fs.writeFileSync(path.join(__dirname, 'estado.json'), JSON.stringify({
     revisado: new Date().toISOString().slice(0, 10), total: results.length, ok: results.length - failed.length, caidas, dudosas,
+    duraciones,   // segundos de cada URL: GipaPlay las usa para no medir cada parte al reproducir
   }, null, 2) + '\n');
   // status.json: detalle completo de esta pasada
   fs.writeFileSync(path.join(__dirname, 'status.json'), JSON.stringify({ fecha: new Date().toISOString(), avisos, resultados: results }, null, 2));
