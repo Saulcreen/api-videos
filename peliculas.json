@@ -51,5 +51,20 @@
     "fuente": "directa",
     "tipo": "pelicula",
     "idioma": "es-LA"
+  },
+  {
+    "id": 4,
+    "tmdbId": 324857,
+    "titulo": "Spider-Man: Into the Spider-Verse",
+    "url": [
+      "https://cdn.savedly.net/j5mruggm",
+      "https://cdn.savedly.net/ezpr48ey",
+      "https://cdn.savedly.net/s4nm7x5s",
+      "https://cdn.savedly.net/akjaxkvr",
+      "https://cdn.savedly.net/uuevt53n"
+    ],
+    "fuente": "directa",
+    "tipo": "pelicula",
+    "idioma": "es-LA"
   }
 ]
