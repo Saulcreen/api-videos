@@ -18,9 +18,15 @@
     "id": 2,
     "tmdbId": 1423191,
     "titulo": "Resident Evil: Noche cero",
-    "url": "-",
-    "fuente": "youtube",
-    "youtubeId": "-",
+    "url": [
+      "https://cdn.savedly.net/66hkdtv8",
+      "https://cdn.savedly.net/23ydtkwc",
+      "https://cdn.savedly.net/hyuabews",
+      "https://cdn.savedly.net/uxaftzca",
+      "https://cdn.savedly.net/qd6fmk7m",
+      "https://cdn.savedly.net/qh3vx2qv"
+    ],
+    "fuente": "directa",
     "tipo": "pelicula",
     "idioma": "es-LA"
   }
