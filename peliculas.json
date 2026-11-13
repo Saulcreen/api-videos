@@ -66,5 +66,27 @@
     "fuente": "directa",
     "tipo": "pelicula",
     "idioma": "es-LA"
+  },
+  {
+    "id": 5,
+    "tmdbId": 569094,
+    "titulo": "Spider-Man: A través del Spider-Verso",
+    "url": [
+      "https://cdn.savedly.net/ga84dv7v",
+      "https://cdn.savedly.net/dzyxhmrd",
+      "https://cdn.savedly.net/dhwz28bk",
+      "https://cdn.savedly.net/u2cfbu87",
+      "https://cdn.savedly.net/4xztv7ch",
+      "https://cdn.savedly.net/sqp3s7mn",
+      "https://cdn.savedly.net/y39mnhh6",
+      "https://cdn.savedly.net/zvanyr6c",
+      "https://cdn.savedly.net/eyj65zs4",
+      "https://cdn.savedly.net/66m5zbsj",
+      "https://cdn.savedly.net/39hfv5vm",
+      "https://cdn.savedly.net/b98ae4us"
+    ],
+    "fuente": "directa",
+    "tipo": "pelicula",
+    "idioma": "es-LA"
   }
 ]
