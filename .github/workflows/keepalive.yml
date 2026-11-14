@@ -1,10 +1,10 @@
 name: keepalive
 on:
   schedule:
-    - cron: '0 */2 * * *'
-  workflow_dispatch: {}
+    - cron: '17 * * * *'     # cada hora, al minuto 17 (hora UTC)
+  workflow_dispatch: {}      # boton "Run workflow" para probar a mano
 permissions:
-  contents: write
+  contents: write            # para guardar estado.json en el repo
 concurrency:
   group: keepalive
   cancel-in-progress: false
