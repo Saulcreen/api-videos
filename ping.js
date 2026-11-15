@@ -20,11 +20,13 @@ const CONCURRENCY = 4;
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 
 // Fuentes: por defecto tu api-videos en GitHub (Saulcreen/api-videos, rama main).
-// Se puede cambiar con VIDEOS_BASE, o ANIMES_URL / PELICULAS_URL por separado.
+// Se puede cambiar con VIDEOS_BASE, o ANIMES_URL / PELICULAS_URL / SERIES_URL por separado.
 const BASE = process.env.VIDEOS_BASE || 'https://raw.githubusercontent.com/Saulcreen/api-videos/main/';
 const SOURCES = [
   { name: 'animes', remote: process.env.ANIMES_URL || BASE + 'animes.json', local: 'animes.json' },
   { name: 'peliculas', remote: process.env.PELICULAS_URL || BASE + 'peliculas.json', local: 'peliculas.json' },
+  // opcional: si series.json aun no esta subido al repo (404), se omite sin romper la pasada
+  { name: 'series', remote: process.env.SERIES_URL || BASE + 'series.json', local: 'series.json', opcional: true },
 ];
 
 async function loadSource(src) {
@@ -42,7 +44,14 @@ async function loadSource(src) {
 async function collect() {
   const items = [];
   for (const src of SOURCES) {
-    for (const e of await loadSource(src)) {
+    let lista;
+    try { lista = await loadSource(src); }
+    catch (err) {
+      if (!src.opcional) throw err;
+      console.warn(`(${src.name} omitido: ${err.message})`);
+      continue;
+    }
+    for (const e of lista) {
       const urls = Array.isArray(e.url) ? e.url : [e.url];
       urls.forEach((u, i) => {
         if (typeof u === 'string' && u.startsWith('http'))
