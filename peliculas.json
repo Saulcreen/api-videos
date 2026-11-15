@@ -107,5 +107,23 @@
     "fuente": "directa",
     "tipo": "pelicula",
     "idioma": "es-LA"
+  },
+  {
+    "id": 7,
+    "tmdbId": 38365,
+    "titulo": "Son como niños",
+    "url": [
+      "https://cdn.savedly.net/htqz5g5g",
+      "https://cdn.savedly.net/wz52p2q6",
+      "https://cdn.savedly.net/e85xt5zr",
+      "https://cdn.savedly.net/b85yheua",
+      "https://cdn.savedly.net/g7kzkngu",
+      "https://cdn.savedly.net/hxmndvph",
+      "https://cdn.savedly.net/hfb4feku",
+      "https://cdn.savedly.net/xzqnyrg3"
+    ],
+    "fuente": "directa",
+    "tipo": "pelicula",
+    "idioma": "es-LA"
   }
 ]
