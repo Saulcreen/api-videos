@@ -173,5 +173,22 @@
     "fuente": "directa",
     "tipo": "pelicula",
     "idioma": "es-LA"
+  },
+  {
+    "id": 11,
+    "tmdbId": 259693,
+    "titulo": "El Conjuro 2",
+    "url": [
+      "https://cdn.savedly.net/3a4dk3kd",
+      "https://cdn.savedly.net/dxjzbu8a",
+      "https://cdn.savedly.net/n5egar7x",
+      "https://cdn.savedly.net/5425rzjg",
+      "https://cdn.savedly.net/5fu5jdts",
+      "https://cdn.savedly.net/shsnhfyd",
+      "https://cdn.savedly.net/tmhf27ee"
+    ],
+    "fuente": "directa",
+    "tipo": "pelicula",
+    "idioma": "es-LA"
   }
 ]
