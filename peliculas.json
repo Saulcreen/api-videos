@@ -190,5 +190,23 @@
     "fuente": "directa",
     "tipo": "pelicula",
     "idioma": "es-LA"
+  },
+  {
+    "id": 12,
+    "tmdbId": 423108,
+    "titulo": "El Conjuro 3",
+    "url": [
+      "https://cdn.savedly.net/gcv92vg7",
+      "https://cdn.savedly.net/ksrcp87v",
+      "https://cdn.savedly.net/97ykd52j",
+      "https://cdn.savedly.net/j5rqw997",
+      "https://cdn.savedly.net/rxspx2g9",
+      "https://cdn.savedly.net/3e8c9k5q",
+      "https://cdn.savedly.net/gcyhvyqa",
+      "https://cdn.savedly.net/sauten5e"
+    ],
+    "fuente": "directa",
+    "tipo": "pelicula",
+    "idioma": "es-LA"
   }
 ]
