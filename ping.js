@@ -53,9 +53,11 @@ async function collect() {
     }
     for (const e of lista) {
       const urls = Array.isArray(e.url) ? e.url : [e.url];
+      // series/animes por episodio: "Titulo (T1E2)" para distinguir capitulos en el log y en estado.json
+      const nombre = e.temporada && e.episodio ? `${e.titulo} (T${e.temporada}E${e.episodio})` : e.titulo;
       urls.forEach((u, i) => {
         if (typeof u === 'string' && u.startsWith('http'))
-          items.push({ url: u, label: urls.length > 1 ? `${e.titulo} [parte ${i}]` : e.titulo });
+          items.push({ url: u, label: urls.length > 1 ? `${nombre} [parte ${i}]` : nombre });
       });
     }
   }
