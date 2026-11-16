@@ -2,7 +2,7 @@
   {
     "id": 1,
     "tmdbId": 255752,
-    "titulo": "Bienvenidos al Undervale",
+    "titulo": "El hotel embrujado - Bienvenidos al Undervale",
     "temporada": 1,
     "episodio": 1,
     "url": [
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "tmdbId": 255752,
-    "titulo": "Asuntos pendientes",
+    "titulo": "El hotel embrujado - Asuntos pendientes",
     "temporada": 1,
     "episodio": 2,
     "url": [
@@ -30,7 +30,7 @@
   {
     "id": 3,
     "tmdbId": 255752,
-    "titulo": "El asesino de Randy",
+    "titulo": "El hotel embrujado - El asesino de Randy",
     "temporada": 1,
     "episodio": 3,
     "url": [
@@ -44,7 +44,7 @@
   {
     "id": 4,
     "tmdbId": 255752,
-    "titulo": "Cómo entrenar a tu demonio",
+    "titulo": "El hotel embrujado - Cómo entrenar a tu demonio",
     "temporada": 1,
     "episodio": 4,
     "url": [
@@ -58,13 +58,83 @@
   {
     "id": 5,
     "tmdbId": 255752,
-    "titulo": "Criaturas monstruosas",
+    "titulo": "El hotel embrujado - Criaturas monstruosas",
     "temporada": 1,
     "episodio": 5,
     "url": [
       "https://cdn.savedly.net/ezu8ky6m",
       "https://cdn.savedly.net/y9wnxjxc",
       "https://cdn.savedly.net/q9sphw4t"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 6,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - ¡Cazaespectros!",
+    "temporada": 1,
+    "episodio": 6,
+    "url": [
+      "https://cdn.savedly.net/wjdsxr43",
+      "https://cdn.savedly.net/md2ncf4e",
+      "https://cdn.savedly.net/hvarjbs5"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 7,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - Los siete Bens",
+    "temporada": 1,
+    "episodio": 7,
+    "url": [
+      "https://cdn.savedly.net/5mzwaabz",
+      "https://cdn.savedly.net/7dq4ncqm",
+      "https://cdn.savedly.net/6kkzxdne"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 8,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - La tía Rose",
+    "temporada": 1,
+    "episodio": 8,
+    "url": [
+      "https://cdn.savedly.net/kzhuwg7q",
+      "https://cdn.savedly.net/fg9ruqz9",
+      "https://cdn.savedly.net/bee38jns"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 9,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - El Esthercismo",
+    "temporada": 1,
+    "episodio": 9,
+    "url": [
+      "https://cdn.savedly.net/cdwdqyzv",
+      "https://cdn.savedly.net/nmkb247h",
+      "https://cdn.savedly.net/q66a7a2g"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 10,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - Los acólitos de Abaddon",
+    "temporada": 1,
+    "episodio": 10,
+    "url": [
+      "https://cdn.savedly.net/fkx63ked",
+      "https://cdn.savedly.net/ataxd9pu",
+      "https://cdn.savedly.net/auk5t74u"
     ],
     "tipo": "serie",
     "idioma": "es-LA"
