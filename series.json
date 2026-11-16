@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "tmdbId": 255752,
+    "titulo": "Bienvenidos al Undervale",
+    "temporada": 1,
+    "episodio": 1,
+    "url": [
+      "https://cdn.savedly.net/a3w7jann",
+      "https://cdn.savedly.net/kmfj2kgf",
+      "https://cdn.savedly.net/x2fun69x"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 2,
+    "tmdbId": 255752,
+    "titulo": "Asuntos pendientes",
+    "temporada": 1,
+    "episodio": 2,
+    "url": [
+      "https://cdn.savedly.net/rpcjynkm",
+      "https://cdn.savedly.net/tyandj6p",
+      "https://cdn.savedly.net/whqadvtj"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 3,
+    "tmdbId": 255752,
+    "titulo": "El asesino de Randy",
+    "temporada": 1,
+    "episodio": 3,
+    "url": [
+      "https://cdn.savedly.net/p7cg2t2c",
+      "https://cdn.savedly.net/jdu9y476",
+      "https://cdn.savedly.net/nrv5s2g5"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 4,
+    "tmdbId": 255752,
+    "titulo": "Cómo entrenar a tu demonio",
+    "temporada": 1,
+    "episodio": 4,
+    "url": [
+      "https://cdn.savedly.net/j69q7ukd",
+      "https://cdn.savedly.net/myqzdsfj",
+      "https://cdn.savedly.net/ebaa76fp"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 5,
+    "tmdbId": 255752,
+    "titulo": "Criaturas monstruosas",
+    "temporada": 1,
+    "episodio": 5,
+    "url": [
+      "https://cdn.savedly.net/ezu8ky6m",
+      "https://cdn.savedly.net/y9wnxjxc",
+      "https://cdn.savedly.net/q9sphw4t"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  }
+]
