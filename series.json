@@ -138,5 +138,117 @@
     ],
     "tipo": "serie",
     "idioma": "es-LA"
+  },
+  {
+    "id": 1,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - El líquido",
+    "temporada": 2,
+    "episodio": 1,
+    "url": [
+      "https://cdn.savedly.net/fyk9hau4",
+      "https://cdn.savedly.net/wrcg3t4u",
+      "https://cdn.savedly.net/gsb53umy"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 2,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - La fiesta",
+    "temporada": 2,
+    "episodio": 2,
+    "url": [
+      "https://cdn.savedly.net/v4e64jjj",
+      "https://cdn.savedly.net/p3hgwhbd",
+      "https://cdn.savedly.net/bgwjunm7"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 3,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - La bruja",
+    "temporada": 2,
+    "episodio": 3,
+    "url": [
+      "https://cdn.savedly.net/qjpwwh6d",
+      "https://cdn.savedly.net/kvka7ddd",
+      "https://cdn.savedly.net/gdsggnqp"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 4,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - ¡Cuidado! Fantasmas sueltos",
+    "temporada": 2,
+    "episodio": 4,
+    "url": [
+      "https://cdn.savedly.net/84dgaf8q",
+      "https://cdn.savedly.net/9tbdy8bv",
+      "https://cdn.savedly.net/e7rb68de"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 5,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - Esther astral",
+    "temporada": 2,
+    "episodio": 5,
+    "url": [
+      "https://cdn.savedly.net/74uxtqjv",
+      "https://cdn.savedly.net/vp9hffag",
+      "https://cdn.savedly.net/uz3zut8x"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 6,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - Dante Crowe",
+    "temporada": 2,
+    "episodio": 6,
+    "url": [
+      "https://cdn.savedly.net/msq7n545",
+      "https://cdn.savedly.net/ysjm8jvn",
+      "https://cdn.savedly.net/6pes3zgy"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 7,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - El conserje",
+    "temporada": 2,
+    "episodio": 7,
+    "url": [
+      "https://cdn.savedly.net/kw2u7q89",
+      "https://cdn.savedly.net/9277akhh",
+      "https://cdn.savedly.net/umu3c392"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
+  },
+  {
+    "id": 8,
+    "tmdbId": 255752,
+    "titulo": "El hotel embrujado - La visita",
+    "temporada": 2,
+    "episodio": 8,
+    "url": [
+      "https://cdn.savedly.net/z9ds3m2d",
+      "https://cdn.savedly.net/5ucjv3kv",
+      "https://cdn.savedly.net/mnvsbc4q"
+    ],
+    "tipo": "serie",
+    "idioma": "es-LA"
   }
 ]
