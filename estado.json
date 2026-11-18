@@ -1,16 +1,9 @@
 {
-  "revisado": "2026-11-17",
+  "revisado": "2026-11-18",
   "total": 196,
-  "ok": 195,
+  "ok": 196,
   "caidas": [],
-  "dudosas": [
-    {
-      "titulo": "El hotel embrujado - Dante Crowe (T2E6) [parte 1]",
-      "url": "https://cdn.savedly.net/ysjm8jvn",
-      "motivo": "fetch failed",
-      "fallos": 1
-    }
-  ],
+  "dudosas": [],
   "duraciones": {
     "https://cdn.savedly.net/sb5vfkqg": 720.816,
     "https://cdn.savedly.net/bxzdkhbb": 719.302,
