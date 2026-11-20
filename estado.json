@@ -1,16 +1,9 @@
 {
-  "revisado": "2026-11-19",
+  "revisado": "2026-11-20",
   "total": 201,
-  "ok": 200,
+  "ok": 201,
   "caidas": [],
-  "dudosas": [
-    {
-      "titulo": "El hotel embrujado - El asesino de Randy (T1E3) [parte 1]",
-      "url": "https://cdn.savedly.net/jdu9y476",
-      "motivo": "tiempo agotado",
-      "fallos": 1
-    }
-  ],
+  "dudosas": [],
   "duraciones": {
     "https://cdn.savedly.net/sb5vfkqg": 720.816,
     "https://cdn.savedly.net/bxzdkhbb": 719.302,
