@@ -483,4 +483,105 @@
     "temporada": 1,
     "episodio": 10,
     "idioma": "es-LA"
+  },
+  {
+    "id": 11,
+    "tmdbId": 105248,
+    "titulo": "Cyberpunk: Edgerunners 2 - Episodio 1",
+    "url": "https://cdn.savedly.net/x8xssqsm",
+    "tipo": "episodio",
+    "temporada": 2,
+    "episodio": 1,
+    "idioma": "es-LA"
+  },
+  {
+    "id": 12,
+    "tmdbId": 105248,
+    "titulo": "Cyberpunk: Edgerunners 2 - Episodio 2",
+    "url": "https://cdn.savedly.net/mh2v9jcx",
+    "tipo": "episodio",
+    "temporada": 2,
+    "episodio": 2,
+    "idioma": "es-LA"
+  },
+  {
+    "id": 13,
+    "tmdbId": 105248,
+    "titulo": "Cyberpunk: Edgerunners 2 - Episodio 3",
+    "url": "https://cdn.savedly.net/ksnpdxqv",
+    "tipo": "episodio",
+    "temporada": 2,
+    "episodio": 3,
+    "idioma": "es-LA"
+  },
+  {
+    "id": 14,
+    "tmdbId": 105248,
+    "titulo": "Cyberpunk: Edgerunners 2 - Episodio 4",
+    "url": "https://cdn.savedly.net/3yf93qjt",
+    "tipo": "episodio",
+    "temporada": 2,
+    "episodio": 4,
+    "idioma": "es-LA"
+  },
+  {
+    "id": 15,
+    "tmdbId": 105248,
+    "titulo": "Cyberpunk: Edgerunners 2 - Episodio 5",
+    "url": "https://cdn.savedly.net/3wrnwp7h",
+    "tipo": "episodio",
+    "temporada": 2,
+    "episodio": 5,
+    "idioma": "es-LA"
+  },
+  {
+    "id": 16,
+    "tmdbId": 105248,
+    "titulo": "Cyberpunk: Edgerunners 2 - Episodio 6",
+    "url": "https://cdn.savedly.net/9prfr8a9",
+    "tipo": "episodio",
+    "temporada": 2,
+    "episodio": 6,
+    "idioma": "es-LA"
+  },
+  {
+    "id": 17,
+    "tmdbId": 105248,
+    "titulo": "Cyberpunk: Edgerunners 2 - Episodio 7",
+    "url": "https://cdn.savedly.net/dbkfa437",
+    "tipo": "episodio",
+    "temporada": 2,
+    "episodio": 7,
+    "idioma": "es-LA"
+  },
+  {
+    "id": 18,
+    "tmdbId": 105248,
+    "titulo": "Cyberpunk: Edgerunners 2 - Episodio 8",
+    "url": "https://cdn.savedly.net/mkzg2yj2",
+    "tipo": "episodio",
+    "temporada": 2,
+    "episodio": 8,
+    "idioma": "es-LA"
+  },
+  {
+    "id": 19,
+    "tmdbId": 105248,
+    "titulo": "Cyberpunk: Edgerunners 2 - Episodio 9",
+    "url": "https://cdn.savedly.net/nzesrg99",
+    "tipo": "episodio",
+    "temporada": 2,
+    "episodio": 9,
+    "idioma": "es-LA"
+  },
+  {
+    "id": 20,
+    "tmdbId": 105248,
+    "titulo": "Cyberpunk: Edgerunners 2 - Episodio 10",
+    "url": "https://cdn.savedly.net/77bxzg4b",
+    "tipo": "episodio",
+    "temporada": 2,
+    "episodio": 10,
+    "idioma": "es-LA"
   }
+]
