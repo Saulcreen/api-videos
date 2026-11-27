@@ -483,5 +483,15 @@
     "temporada": 1,
     "episodio": 10,
     "idioma": "es-LA"
+  },
+  {
+    "id": 1,
+    "tmdbId": 105248,
+    "titulo": "Cyberpunk: Edgerunners 2 - Episodio 1",
+    "url": "https://mxdrop.click/f/pjjpw6w0ago90v",
+    "tipo": "episodio",
+    "temporada": 2,
+    "episodio": 1,
+    "idioma": "es-LA"
   }
 ]
